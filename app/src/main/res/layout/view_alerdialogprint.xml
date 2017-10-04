@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/estilo_alertdialog"
+    android:gravity="center">
+
+    <LinearLayout
+        android:id="@+id/mensajedialogprint"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/estilo_mensajeemergente"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/Textmsjdialogprinter"
+            android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorblanco"
+            android:textSize="15sp"/>
+
+    </LinearLayout>
+
+    <!--
+
+<com.piotrek.customspinner.CustomSpinner
+    android:id="@+id/spinnerprint"
+    android:layout_width="200dp"
+    android:layout_height="35dp"
+    android:padding="2dp"
+    android:layout_marginTop="10dp"
+    android:background="@drawable/estilo_editexthome" />
+
+
+<Spinner
+    android:id="@+id/spinnerprint"
+    android:layout_width="200dp"
+    android:layout_height="35dp"
+    android:padding="2dp"
+    android:layout_marginTop="10dp"
+    android:background="@drawable/estilo_editexthome"/>-->
+
+    <Button
+        android:id="@+id/printeBCD"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/estilo_button"
+        android:textAllCaps="false"
+        android:text="@string/printeBCD"
+        android:textColor="@color/colorblanco"/>
+
+    <Button
+        android:id="@+id/printInvoice"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/estilo_button"
+        android:textAllCaps="false"
+        android:text="@string/printInvoice"
+        android:textColor="@color/colorblanco"/>
+
+    <Button
+        android:id="@+id/printBoth"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/estilo_button"
+        android:textAllCaps="false"
+        android:text="@string/printBoth"
+        android:textColor="@color/colorblanco"/>
+
+    <Button
+        android:id="@+id/botoncancelar"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/estilo_button"
+        android:textAllCaps="false"
+        android:text="@string/cancelarprint"
+        android:textColor="@color/colorblanco"/>
+
+    <Button
+        android:id="@+id/botoncambiarimpresora"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/estilo_button"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="10dp"
+        android:textAllCaps="false"
+        android:text="@string/changeprinter"
+        android:textColor="@color/colorblanco"/>
+
+
+</LinearLayout>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorgrisbase"
+    >
+
+    <include
+        android:id="@+id/Toolbarprinter"
+        layout="@layout/view_toolbar"/>
+
+    <EditText
+        android:id="@+id/editmac"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="40dp"
+        android:inputType="textPersonName"
+        android:background="@drawable/estilo_editexthome"
+        android:hint="@string/mac_address"
+        android:maxLength="20"
+        android:padding="10dp" />
+
+
+    <LinearLayout
+        android:id="@+id/msjprint"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:background="@drawable/estilo_mensajeemergente"
+
+        >
+        <TextView
+            android:id="@+id/notificacionprint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorblanco"
+            android:text="@string/esperando"
+            android:textStyle="bold"
+            android:textSize="15sp"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/botonconectar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/estilo_button"
+        android:drawableLeft="@drawable/ic_print_white_24dp"
+        android:elevation="10dp"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:text="@string/conectarimpresora"
+        android:textAllCaps="false"
+        android:textColor="@color/colorblanco" />
+
+    <Button
+        android:id="@+id/botonlimpiarmac"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/estilo_button"
+        android:elevation="10dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:text="@string/limpiardireccionmac"
+        android:textAllCaps="false"
+        android:textColor="@color/colorblanco" />
+
+</LinearLayout>

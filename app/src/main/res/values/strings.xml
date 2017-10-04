@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">CBS Prod</string>
+    <string name="titulotoolbar">CBS3-BM  Print Releases</string>
+    <string name="version_app">CBS Prod v. 1.0</string>
+    <string name="subtitulo_prod">CBS Prod.</string>
+    <string name="subtitulo_test">CBS Test.</string>
+
+    <string name="usuario">Username</string>
+    <string name="contraseña">Password</string>
+    <string name="Ingresar">Login</string>
+    <string name="Verify">Verify and Read Data</string>
+    <string name="print">Print eBCD and Invoice</string>
+    <string name="awb">AWB No.</string>
+    <string name="ok">OK</string>
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+    <string name="esperando">Waiting option</string>
+    <string name="conectarimpresora">Connect printer</string>
+    <string name="salir">Confirm Logout.</string>
+    <string name="mac_address">Mac address</string>
+    <string name="confrimarprint">Confirm Printing</string>
+    <string name="cancelarprint">Printing Cancelled</string>
+    <string name="userempy">Username is empty</string>
+    <string name="passwordempy">Password is empty</string>
+    <string name="nointerent">No internet access</string>
+    <string name="errorbdc">Error. BCD not released yet</string>
+    <string name="errorawb">Error. Incorrect AWB No.</string>
+    <string name="errorusuario">Username or password incorrect </string>
+    <string name="errorwebservice">Failed connection with webservice </string>
+    <string name="limpiardireccionmac">Clean mac address</string>
+    <string name="changeprinter">Change printer</string>
+    <string name="missingmacaddress">Missing mac address</string>
+    <string name="conectarWifi">Wifi off \n Please check your internet connection. Turn on the Wifi</string>
+    <string name="spinner_hint">Select...</string>
+    <string name="printeBCD">Print eBCD</string>
+    <string name="printInvoice">Print Invoice</string>
+    <string name="printBoth">Print Both</string>
+    <string name="message_error">Impossible to print. Error in AWB No!!</string>
+    <string-array name="spinner">
+        <item>Print eBCD</item>
+        <item>Print Invoice</item>
+        <item>Print both</item>
+    </string-array>
+
+</resources>

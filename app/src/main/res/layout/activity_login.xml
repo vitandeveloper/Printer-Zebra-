@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:layout_editor_absoluteY="8dp"
+    tools:layout_editor_absoluteX="8dp">
+
+        <LinearLayout
+            android:id="@+id/mensajederror"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/estilo_mensajeemergente"
+
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="10dp"
+                android:text="!"
+                android:textStyle="bold"
+                android:textSize="21sp"
+                android:textColor="@color/colorPrimaryDark"
+                />
+
+            <TextView
+                android:id="@+id/Textmsjenotificacion"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorblanco"
+                android:textSize="15sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <EditText
+                android:id="@+id/campousuario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/estilo_editext"
+                android:drawableLeft="@drawable/ic_person_black_24dp"
+                android:ems="10"
+                android:maxLength="10"
+                android:hint="@string/usuario"
+                android:inputType="textPersonName"
+                android:padding="10dp"
+                android:textColorHint="@color/colornegro" />
+
+            <EditText
+                android:id="@+id/campopassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/estilo_editext"
+                android:drawableLeft="@drawable/ic_lock_black_24dp"
+                android:ems="10"
+                android:maxLength="10"
+                android:hint="@string/contraseña"
+                android:inputType="textPassword"
+                android:padding="10dp"
+                android:textColorHint="@color/colornegro" />
+
+            <Button
+                android:id="@+id/btningresar"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/estilo_button"
+                android:elevation="10dp"
+                android:text="@string/Ingresar"
+                android:textAllCaps="false"
+                android:textColor="#FFF" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+

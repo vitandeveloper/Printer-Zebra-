@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorgrisbase"
+    >
+
+    <include
+        android:id="@+id/Toolbarhome"
+        layout="@layout/view_toolbar"/>
+
+    <LinearLayout
+        android:id="@+id/msjerrorhome"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/estilo_mensajeemergente"
+
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:text="!"
+            android:textStyle="bold"
+            android:textSize="21sp"
+            android:textColor="@color/colorPrimaryDark"
+            />
+
+        <TextView
+            android:id="@+id/Textmsjenotificacionhome"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorblanco"
+            android:textSize="15sp"/>
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/editverify"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/estilo_editexthome"
+        android:hint="@string/awb"
+        android:inputType="textPersonName"
+        android:maxLength="25"
+        android:padding="10dp" />
+
+    <Button
+        android:id="@+id/botonverify"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/estilo_button"
+        android:drawableLeft="@drawable/ic_find_in_page_white_24dp"
+        android:elevation="10dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:text="@string/Verify"
+        android:textAllCaps="false"
+        android:textColor="@color/colorblanco" />
+
+    <LinearLayout
+        android:id="@+id/Layoutcontenido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textocontenido"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/estilo_editexthome"
+            android:padding="10dp"
+            android:textColor="@color/colornegro"
+            android:textStyle="bold"
+            android:scrollbarAlwaysDrawVerticalTrack="true"
+            />
+
+        <Button
+            android:id="@+id/botonprint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/estilo_button"
+            android:drawableLeft="@drawable/ic_print_white_24dp"
+            android:elevation="10dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:text="@string/print"
+            android:textAllCaps="false"
+            android:textColor="@color/colorblanco"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
